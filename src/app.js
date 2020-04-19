@@ -13,7 +13,7 @@ import { SphereBuilder } from "@babylonjs/core/Meshes/Builders/sphereBuilder"
 if (process.env.NODE_ENV === 'development') {
   require("@babylonjs/core/Debug/debugLayer")
 
-  // COMMENT THE FOLLOWING LINE TO MAKE BREAK IT
+  // COMMENT THE FOLLOWING LINE TO BREAK IT
   require('@babylonjs/inspector')
 }
 
